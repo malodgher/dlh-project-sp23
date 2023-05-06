@@ -3,14 +3,16 @@ CS598 Deep Learning for Healthcare Spring 2023 project code by Murtaza Lodgher a
 
 There are 2 sections: 1) Used Author's code 2) Implemented our own code
 
-# ###### Author's Code #######
-## (Under Authors code folder)
+### *****************************************************************************************************
+
+# Author's Code
+#### (Under Authors code folder)
 
 The first step of our implementation involved using the original code base provided in the paper and making the necessary updates to the code to make it compatible with the latest version of Python including necessary updates to the libraries used such that we are able to successfully run the model against the data and produce the results.
 
 We also utilized the synthetic data provided and passed it through the model for testing purposes and successfully generated the AUC for each epoch.
 
-## Heart Failure Prediction using RNN
+#### Heart Failure Prediction using RNN
 This is a simple RNN (implemented with Gated Recurrent Units) for predicting a HF diagnosis given patient records.
 
 There are four different versions:
@@ -27,24 +29,26 @@ The data are synthetic and make no sense at all. It is intended only for testing
 3. labels.pkl: This is a pickled list of 0 and 1s.
 4. emb.pkl: This is a randomly generated code embedding of size 100 X 100
 
-## Requirement
+#### Requirement
 Python and Theano are required to run the scripts
 
-## How to Execute
+#### How to Execute
 1. python gru_onehot.py sequences.pkl labels.pkl <output>
 2. python gru_onehot_time.py sequences.pkl times.pkl labels.pkl <output>
 3. python gru_emb.py sequences.pkl labels.pkl emb.pkl <output>
 4. python gru_emb_time.py sequences.pkl times.pkl labels.pkl emb.pkl <output>
 
-## Reference
+#### Reference
 https://github.com/mp2893/rnn_predict
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5391725/pdf/ocw112.pdf
 
 
-# ########### Student's Code (Implemented our own) ##########
-## (Under Student code folder)
-## Implemented by Sagar Dalwadi - sagardd2
-## Corresponding Jupyter Notebook is provided: CS598_DLH_Project_Sagar.ipynb
+### *****************************************************************************************************
+
+# Student's Code (Implemented our own)
+#### (Under Student code folder)
+#### Implemented by Sagar Dalwadi - sagardd2
+#### Corresponding Jupyter Notebook is provided: CS598_DLH_Project_Sagar.ipynb
 
 Now that we experimented with Author's code and got an understanding of how the model works & what data should be used, I implemented my own code with python keras library and real world data from PhysioNet website.
 
