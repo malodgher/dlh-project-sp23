@@ -47,7 +47,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5391725/pdf/ocw112.pdf
 ### ******************************************************************************
 
 # Student's Code (Implemented our own)
-#### (Under Student code folder)
+#### (Under StudentCode folder)
 #### Implemented by Sagar Dalwadi - sagardd2
 #### Corresponding Jupyter Notebook is provided: CS598_DLH_Project_Sagar.ipynb
 
@@ -78,6 +78,8 @@ Once you have access go to Files section on above link where you can download re
 
 More information on dataset, fields etc can be found at: https://mimic.mit.edu/docs/iii/tables/
 
+Some statistics on the input data are provided under Input Data Stats folder. Which inlcudes records count, mean, min, max etc for each data frames as well as Heart failure distribution by Gender based on derived Heart failure target variable.
+
 # Requirements / Pre-requisite
 
 Install Python & required libraries (Code file includes a subsection for installation using PIP)
@@ -107,3 +109,6 @@ Before you execute the code, you need to set couple of variables in the code fil
 1. Python rnn_gru_simoid.py
 2. Python rnn_gru_relu.py
 
+# Results
+
+Screenshots of results are provided under Results folder
