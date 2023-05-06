@@ -3,7 +3,7 @@ CS598 Deep Learning for Healthcare Spring 2023 project code by Murtaza Lodgher a
 
 There are 2 sections: 1) Used Author's code 2) Implemented our own code
 
-### *****************************************************************************************************
+### *****************************************************************************
 
 # Author's Code
 #### (Under Authors code folder)
@@ -40,10 +40,11 @@ Python and Theano are required to run the scripts
 
 #### Reference
 https://github.com/mp2893/rnn_predict
+
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5391725/pdf/ocw112.pdf
 
 
-### *****************************************************************************************************
+### ******************************************************************************
 
 # Student's Code (Implemented our own)
 #### (Under Student code folder)
