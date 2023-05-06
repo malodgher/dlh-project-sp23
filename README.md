@@ -66,6 +66,8 @@ There are 2 different versions:
 Data sets are extracted from PhysioNet website: (you need to have "CITI Data or Specimens Only Research" training completed & approved before you can access the data)
 https://physionet.org/content/mimiciii/1.4/
 
+#### Note: For the purpose of this project submission & to be able to allow TAs/Instructor to run the code successfully, I have made the data files used in the code accessible on google drive. Also, uploaded the smaller files to github under InputData folder for reference.
+
 Once you have access go to Files section on above link where you can download required data files.
 
 1. Admissions: gives information regarding a patient’s admission to the hospital
@@ -82,14 +84,24 @@ Install Python & required libraries (Code file includes a subsection for install
 
 # How to Execute
 
-Before you execute the code, you need to set couple of parameters in the code file as follows:
 
-1. data_dir: Once you download the data files as instructed above, place them in desired folder on your machine and provide a directory path here.
+#### Step-1 Clone the git repo to your machine
+
+#### Step-2: Download the data files
+Download the data files from below google drive location to your machine where you plan to execute the code:
+
+
+Preferably place the downloaded files under: /dlh-project-sp23/StudentCode/InputData/
+
+#### Step-3: Set the variables
+Before you execute the code, you need to set couple of variables in the code file as follows:
+
+1. data_dir: Once you download the data files as instructed above, place them in desired folder on your machine and provide a directory path here. (If used preferred path then no need for any changes)
 2. labevents_records: If you are executiong Version 2 above (rnn_gru_relu.py) then you need to set this according to the computation power you have on your machine. Default is 500k (500000) and Max is 27.8M (27854060). If you are executing on personal computer then I would recommend keep it as default.
 3. inputdf_records: Set this according to the computation power of your machine. Default is 15k and Max is 1.4M for Verison 1 and 200k for Version 2. If you are executing on personal computer then I would recommend keep it as default.
 4. max_epoch: Default is 3. You can set this as per your preference.
 
-Executing:
+#### Step-4: Executing the code:
 
 1. Python rnn_gru_simoid.py
 2. Python rnn_gru_relu.py
